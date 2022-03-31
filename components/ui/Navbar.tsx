@@ -32,7 +32,7 @@ export const Navbar = () => {
             P
           </Text>
           <Text color='white' h3>
-            okemon
+            okemons
           </Text>
         </Link>
       </NextLink>
@@ -41,7 +41,7 @@ export const Navbar = () => {
 
       <NextLink href='/favorites' passHref>
         <Link>
-          <Text color='white'>Favorites</Text>
+          <Text color='white'>Favorites!</Text>
         </Link>
       </NextLink>
     </div>
