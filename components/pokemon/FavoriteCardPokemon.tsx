@@ -3,7 +3,7 @@ import { useRouter } from 'next/router';
 import { Card, Grid } from '@nextui-org/react';
 
 interface Props {
-  pokemonId: number;
+  pokemonId: number;  
 }
 
 export const FavoriteCardPokemon: FC<Props> = ({ pokemonId }) => {  
